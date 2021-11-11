@@ -27,7 +27,7 @@ In order to run the repetion and conditional statements we will first need creat
 
 *   The screenshot below highlights the variables used to create lists and dictionarys to store the data as it relates to candidates and county specific data.
 
-![ListDictionary](Resources/ListDictionary.PNG)
+![ListDictionary](Resources/ListDictionary.png)
 
 *  With variables created we will then open the file and set the intial vote count to zero.  This allow us access the required data and clear and residual data stored in a variable to ensure we get accurate vote counts for analysis later. From there we can then beging to pull data to be used for calculations later on.
 
