@@ -51,9 +51,13 @@ Now that we have the data pulled and stored in variables, now the fun begins.  W
 
 ![CandidateAnalysis](Resources/CandidateAnalysis.png)    ,    ![PerCountyAnalysis](Resources/PerCountyAnalysis.png)
 
-* Now that we have all this data and calculations complete, we need to make it meaningful to the people that will review this data, particularly Tom.  Formatting is an important step to make this data more meaningful.  Below you will find the snippets of code that were used to format the output of the data to not only make the information more legible but also presents the data in an attractive manner that makes it easier for the user to read and understand.  The output on the left is the report displayed on the terminal and on the left is the same data displayed in a .txt format.
+* Now that we have all this data and calculations complete, we need to make it meaningful to the people that will review this data, particularly Tom.  Formatting is an important step to make this data more meaningful.  Below you will find the snippets of code that were used to format the output of the data to not only make the information more legible but also presents the data in an attractive manner that makes it easier for the user to read and understand. The following snippets are run in different places of the code to handle the out put of the data to be displayed on both the terminal and as a .txt file.
+
+![CodeToFormatTotalVoteForTeminalTextPrint](Resources/CodeToFormatTotalVoteForTeminalTextPrint.png)    ,    ![WinnerTerminalTextOutput](Resources/WinnerTerminalTextOutput.png)
 
 ### Summary of Output Terminal Display and .txt File.
+
+ The output on the left is the report displayed on the terminal and on the left is the same data displayed in a .txt format.
 
 ![TerminalOutput](Resources/TerminalOutput.PNG) , ![DataSavedToTxtFile](Resources/DataSavedToTxtFile.PNG)
 
