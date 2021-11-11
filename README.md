@@ -20,14 +20,13 @@ Upon Analysis of the election analysis requirements, there are multiple opportun
 *  Declaration of the winner which provides winning candidates name, quantity of votes, and winning percentages.
 *  Provide a report of above results in a command line format and .txt format.
 
-![OriginalCodeLineByLineReduced](resources/OriginalCodeLineByLineReduced.png)
-
-
 ### Analysis of the Approach to Automate Election Analysis Requirements.
 After reviewing the data file, it is determined that through Python the best approach is to use repition and conditional statements with logical operators and print statements to pull the required information from the file, run calculations, determine winning condtions and output the results in a attractive and readible format from both the command line and in .txt format.  Both 'for' loops and 'if' statements will be the backbone of the code to achieve these results. 
 
-*   The screenshot below can be found in both the original and refractored code.  This code allows each stock ticker symbol to be stored to an array and then recalled through indexing.
-![DimTickers](resources/DimTickers.PNG)
+In order to run the repetion and conditional statements we will first need create variables to store relevant information from the csv file and store it for use later.  In this case, the information that we are most interested in storing is info regarding the candidates running for office and data as it relates to county turnout and relevant voting percentages.
+
+*   The screenshot below highlights the variables used to create lists and dictionarys to store the data as it relates to candidates and county specific data.
+![ListDictionary](resources/ListDictionary.PNG)
 
 *****Place other images highlighting use of arrays in refractored code
 
