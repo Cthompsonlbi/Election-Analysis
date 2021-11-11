@@ -32,27 +32,32 @@ In order to run the repetion and conditional statements we will first need creat
 *  With variables created we will then open the file and set the intial vote count to zero.  This allow us access the required data and clear and residual data stored in a variable to ensure we get accurate vote counts for analysis later. From there we can then beging to pull data to be used for calculations later on.
 
 *  This code snippet opens the file that will be used to pull required data to run the analysis
+ 
 ![ReadCSVfile](Resources/ReadCSVfile.png)
 
 *  While this snippet is the code that sets the vote count to zero.
+
 ![SetsVoteCountZero](Resources/SetsVoteCountZero.png)
 
 From here we begin to collect the candidate and county specific data using 'for' loops and conditonal statements.  The code containing the 'for' loops and conditional statement goes through each row of the data and stores the relevant information while indexing.  This will allow us to get each candidate and each county and store vote counnts for each variable to be used for analysis later in the code.  
 
 * This use of 'for' loops and conditional statements to gather candidate and county information can be seen below.
+
 ![For_Loop_If_Cond](Resources/For_Loop_If_Cond.png)
 
 Now that we have the data pulled and stored in variables, now the fun begins.  With the data acquired from the .csv file for the candidate and counties, we can use Python to run mathematical calculations to show how many people voted for a particular candidate, percentage of votes for that candidate, and the amount of votes cast in each county and the precentage of total votes each county and candidate received.
 
 * The code snippets below show the acquistion of vote counts and the application of a mathematical formula that calculates the percentage of votes acquired by candidates and what percentage of votes did each county cast.
 
-![CandidateAnalysis](Resources/CandidateAnalysis.png) , ![PerCountyAnalysis](Resources/PerCountyAnalysis.png)
+![CandidateAnalysis](Resources/CandidateAnalysis.png)    ,    ![PerCountyAnalysis](Resources/PerCountyAnalysis.png)
 
 * Now that we have all this data and calculations complete, we need to make it meaningful to the people that will review this data, particularly Tom.  Formatting is an important step to make this data more meaningful.  Below you will find the snippets of code that were used to format the output of the data to not only make the information more legible but also presents the data in an attractive manner that makes it easier for the user to read and understand.  The output on the left is the report displayed on the terminal and on the left is the same data displayed in a .txt format.
 
 ### Summary of Output Terminal Display and .txt File.
 
 ![TerminalOutput](Resources/TerminalOutput.PNG) , ![DataSavedToTxtFile](Resources/DataSavedToTxtFile.PNG)
+
+
 ### Results of the Automation of Election Analysis
 
 By reviewing the output screen shots above, we can see that there were 369,711 total votes casted.  Denver had the largest voter turn out with 306,055 votes followed by Jefferson county and Arapahoe, respectively.  The winner of the election was Diana DeGette as she managed to capture 272,892 votes for a winning percentage of 73.8%.  While Charles Casper Stockham and Raymon Anthony Doane finished second and third, respectively.
