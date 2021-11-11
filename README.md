@@ -26,7 +26,7 @@ After reviewing the data file, it is determined that through Python the best app
 In order to run the repetion and conditional statements we will first need create variables to store relevant information from the csv file and store it for use later.  In this case, the information that we are most interested in storing is info regarding the candidates running for office and data as it relates to county turnout and relevant voting percentages.
 
 *   The screenshot below highlights the variables used to create lists and dictionarys to store the data as it relates to candidates and county specific data.
-![ListDictionary](resources/ListDictionary.png)
+
 ![ListDictionary](resources/ListDictionary.png)
 
 *  With variables created we will then open the file and set the intial vote count to zero.  This allow us access the required data and clear and residual data stored in a variable to ensure we get accurate vote counts for analysis later. From there we can then beging to pull data to be used for calculations later on.
