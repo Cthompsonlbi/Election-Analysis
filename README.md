@@ -4,14 +4,14 @@
 Assist Colorado Board of Election employee Tom in an election audit for U.S. Congressional Precinct in Colorado.
 
 ### Purpose
-Due to multiple methods of voting; in-person, punch cards, and Direct Recording Counting, the task of counting votes, auditing the results of the election and certifying the results can be tedious.  Currently this process is managed through manually through Excel.  Tom would like to automate the election verification programmatically using Python.  If successful, this automation could be leveraged by other districts and for Senate elections.
+Due to multiple methods of voting; in-person, punch cards, and Direct Recording Counting, the task of counting votes and auditing the results of the election and certifying the results can be tedious.  Currently this process is managed manually through Excel. Tom would like to automate the election verification programmatically using Python.  If successful, this automation could be leveraged by other districts and for Senate elections.
 
 ## Analysis and Challenges
-The challenge is to take code that works well and find ways to improve it so that it works even better.  This requires a review of the existing code and identify opportunities in the code to make improvements so that code can handle larger data sets and still produce appropriate analytics in a timely manner.
+The challenge is to bring a novice up to speed with Python in an effort to take a manual tedious process into a more robust automated process.  This requires a review of the current method and develop an understanding of what inputs are available to generate the required outputs that will be used validate the election results and sent to the interested parties. The rest of this analysis will be addressing the approach taken to achieve Tom's ultimate goal of an automated report.
 
-### Analysis of Original Code
+### Analysis of Election Analysis Requirement
 
-Upon Analysis of original code, there are multiple opportunities for improvement that could improve the speed and reduce computer time and resources to run calculations and output the data. Reviewing the code snippit below one will notice the following:
+Upon Analysis of the election analysis requirements, there are multiple opportunities for improvement that could automate the process of the election analysis and provide 
 
 *  The code operates in a very serial manner. 
 *  Per ticker index, code is run one line at a time.  
