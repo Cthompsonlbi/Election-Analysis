@@ -1,10 +1,10 @@
 # Election-Analysis
 
 ## Overview of Project
-To provide an optimized data analysis tool that will allow Steve the ability to review large number of stocks, capture both price over time and returns in a quick and efficient manner.
+Assist Colorado Board of Election employee Tom in an election audit for U.S. Congressional Precinct in Colorado.
 
 ### Purpose
-Although Steve appreciates our intial deliverable that allowes him to evaluate a handful of stocks quickly to help his parents reach their investement goals, he would like us to optimize the code to process the data faster.  This will allow Steve to increase the number of companies he can evaluate without increasing overall time required to process the data and analyze the results.
+Due to multiple methods of voting; in-person, punch cards, and Direct Recording Counting, the task of counting votes, auditing the results of the election and certifying the results can be tedious.  Currently this process is managed through manually through Excel.  Tom would like to automate the election verification programmatically using Python.  If successful, this automation could be leveraged by other districts and for Senate elections.
 
 ## Analysis and Challenges
 The challenge is to take code that works well and find ways to improve it so that it works even better.  This requires a review of the existing code and identify opportunities in the code to make improvements so that code can handle larger data sets and still produce appropriate analytics in a timely manner.
