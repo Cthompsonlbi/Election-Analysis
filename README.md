@@ -41,27 +41,31 @@ From here we begin to collect the candidate and county specific data using 'for'
 * This use of 'for' loops and conditional statements to gather candidate and county information can be seen below.
 ![For_Loop_If_Cond](resources/For_Loop_If_Cond.png)
 
-### Results of the Automation of Election Analysis
+Now that we have the data pulled and stored in variables, now the fun begins.  With the data acquired from the .csv file for the candidate and counties, we can use Python to run mathematical calculations to show how many people voted for a particular candidate, percentage of votes for that candidate, and the amount of votes cast in each county and the precentage of total votes each county and candidate received.
+
+* The code snippets below show the acquistion of vote counts and the application of a mathematical formula that calculates the percentage of votes acquired by candidates and what percentage of votes did each county cast.
+
+![CandidateAnalysis](resources/CandidateAnalysis.png) , ![PerCountyAnalysis](resources/PerCountyAnalysis.png)
+
+* Now that we have all this data and calculations complete, we need to make it meaningful to the people that will review this data, particularly Tom.  Formatting is an important step to make this data more meaningful.  Below you will find the snippets of code that were used to format the output of the data to not only make the information more legible but also presents the data in an attractive manner that makes it easier for the user to read and understand.  The output on the left is the report displayed on the terminal and on the left is the same data displayed in a .txt format.
 
 ### Summary of Output Terminal Display and .txt File.
 
+![TerminalOutput](resources/TerminalOutput.png) , ![DataSavedToTxtFile](resources/DataSavedToTxtFile.png)
 
-## Summary
+### Results of the Automation of Election Analysis
 
-### Advantages and Disadvantages of Refactoring Code
+By reviewing the output screen shots above, we can see that there were 369,711 total votes casted.  Denver had the largest voter turn out with 306,055 votes followed by Jefferson county and Arapahoe, respectively.  The winner of the election was Diana DeGette as she managed to capture 272,892 votes for a winning percentage of 73.8%.  While Charles Casper Stockham and Raymon Anthony Doane finished second and third, respectively.
 
-### Advantages and Disadvantages of Projects Original and Refactored code.
-Conclusion number one is the month of May appears to be the best month to start a kickstarter campaign and have a successful campaign.  While June and July appear to be the next best option for both starting and having a successful kickstarter.  
-The second conclusion is the month of December appears to have the least activity with regards to starting a kickstarter and the lowest success rate.
+## Election-Audit Summary
 
+Now that the Colorado Board of Election committee can see the quality of data that this Python based tool out puts and the amount of time that will be inherently saved by taking a process that was manual and now created through autmation, I propose that this code is used audit elections, both federal and local throughout the various districts.
+The use of this codes to audit elections, both federal and local throughout the districts will:
+ 
+ * streamline the process as the code will perform all of the calculations, reducing the need to have an individual in each district responsible for counting and validating the results
+ * Minor code changes can be made to import the data from other districts, reformat it and create reports that are consistent in look and feel from one district to the next.
+    * Some of those changes may be variables that can identify if the election is run for local election or federal elections.
+ * Another benefit is with a uniformed method of pulling data, calculating and reporting results, it makes it easier to identify historical trends.  The code can be set up to segregate data out based on year. If the code is written to account for the year of each election, it would become easier to pull this data in and run calculations that could identify voter trends year over year.  
 
-- What can you conclude about the Outcomes based on Goals?
-Based on the Outcomes Based on Goals analysis, one can conclude that there is a a direct connection between the goal amount and whether fund raising campaign is successful or fails.  Goals set too high may not be reached and goals set too low may be insufficient to fund a project.  One must fully understand what is required to fund their projects and must set a number that is appropriate to reach their funding goals. 
+Being able to utilize the data to its fullest potential would be extremely difficult to accomplish if each district captured and processed results using their own methodologies. Leveraging Python and this code would require fewer people and less time to evaluate the data and would allow for deeper analysis of data on a larger scale over a many years.
 
-- What are some limitations of this dataset?
-The dataset as provided in this exercise fails to link the success and failure rates based on the launch month of the kick starter in relation to the goal amount for that kickstarter.  It would be interesting to see if the goals set for the month of May were more in line with a goal level set that have shown higher levels of success as highlighted in the Outcome vs Goals chart. 
-Another issue with the dataset provided, is it does not consider any macro or micro economic factors that my impact the success or failure rate of any given kickstarter campaign.  Macro factors such as recessions or micro factors such as less discretionary spending during the holidays than compared to the summer months.
-
-- What are some other possible tables and/or graphs that we could create?
-In addition to a table that cross references the range of goals for successful and failed kickstarters in the month of May, a table that shows year over year performances of kickstarters of multiple industries.  This information would prove to be valuable as it could show if certain industries are falling out of favor.  Are kickstarters associated with publishing falling out of favor when compared to technology kickstarters?  How do food kickstarter campaigns success/fail rates over multiple years trend in comparison to theater kickstarters.  This would be helpful to see this historical analysis so if Louise were to decide to have another fundraising campaign in the future, she would be more confident in its likelihood for success.
-Another interesting view would be how quickly did the successful kickstart campaign reached their goals.  How many days did it take for successful campaigns to reach their goals in relation to their start dates?  This could be helpful for Louise to set not only a reasonable goal, at the correct time of year, but also to provide it enough time.
