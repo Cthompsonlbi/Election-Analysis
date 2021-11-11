@@ -52,8 +52,7 @@ Now that we have the data pulled and stored in variables, now the fun begins.  W
 
 ### Summary of Output Terminal Display and .txt File.
 
-![TerminalOutput](Resources/TerminalOutput.png) , ![DataSavedToTxtFile](Resources/DataSavedToTxtFile.png)
-
+![TerminalOutput](Resources/TerminalOutput.PNG) , ![DataSavedToTxtFile](Resources/DataSavedToTxtFile.PNG)
 ### Results of the Automation of Election Analysis
 
 By reviewing the output screen shots above, we can see that there were 369,711 total votes casted.  Denver had the largest voter turn out with 306,055 votes followed by Jefferson county and Arapahoe, respectively.  The winner of the election was Diana DeGette as she managed to capture 272,892 votes for a winning percentage of 73.8%.  While Charles Casper Stockham and Raymon Anthony Doane finished second and third, respectively.
