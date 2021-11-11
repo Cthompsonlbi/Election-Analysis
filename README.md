@@ -11,18 +11,20 @@ The challenge is to bring a novice up to speed with Python in an effort to take 
 
 ### Analysis of Election Analysis Requirement
 
-Upon Analysis of the election analysis requirements, there are multiple opportunities for improvement that could automate the process of the election analysis and provide 
+Upon Analysis of the election analysis requirements, there are multiple opportunities for improvement that could automate the process of the election analysis and provide powerful data and reporting.  The Election Results report must output the following: 
 
-*  The code operates in a very serial manner. 
-*  Per ticker index, code is run one line at a time.  
-*  Data is placed in the appropriate column on the designated output work sheet one ticker at a time.  
-    --Starts with ticker 0 and runs through each line of code to calculate the volume, then the starting price, ending price, and then the post calculates the return. Then it moves on and repeats the process for tickers 1 through 11. A very serial process that requires movement across multiple tables and sets of data.
+*  Total Votes
+*  County voting results displaying the county, quantity of votes for each county and percentage of votes for each county. 
+*  The county with the largest voting turnout.
+*  The candidates names, quantity of votes received and percentage of votes received
+*  Declaration of the winner which provides winning candidates name, quantity of votes, and winning percentages.
+*  Provide a report of above results in a command line format and .txt format.
 
 ![OriginalCodeLineByLineReduced](resources/OriginalCodeLineByLineReduced.png)
 
 
-### Analysis of Opportunities of improvement
-After evaluating the original code above, better use of arrays within the code could greatly improve the performance of this analysis tool.  By using arrays one can store larger sets of data in relation to other arrays.  With a single loop more data can be collected and stored in a computer's memory to then be pushed to the output file destination at one time.  
+### Analysis of the Approach to Automate Election Analysis Requirements.
+After reviewing the data file, it is determined that through Python the best approach is to use repition and conditional statements with logical operators and print statements to pull the required information from the file, run calculations, determine winning condtions and output the results in a attractive and readible format from both the command line and in .txt format.  Both 'for' loops and 'if' statements will be the backbone of the code to achieve these results. 
 
 *   The screenshot below can be found in both the original and refractored code.  This code allows each stock ticker symbol to be stored to an array and then recalled through indexing.
 ![DimTickers](resources/DimTickers.PNG)
