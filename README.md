@@ -26,11 +26,24 @@ After reviewing the data file, it is determined that through Python the best app
 In order to run the repetion and conditional statements we will first need create variables to store relevant information from the csv file and store it for use later.  In this case, the information that we are most interested in storing is info regarding the candidates running for office and data as it relates to county turnout and relevant voting percentages.
 
 *   The screenshot below highlights the variables used to create lists and dictionarys to store the data as it relates to candidates and county specific data.
-![ListDictionary](resources/ListDictionary.PNG)
+![ListDictionary](resources/ListDictionary.png)
 
-*****Place other images highlighting use of arrays in refractored code
+*  With variables created we will then open the file and set the intial vote count to zero.  This allow us access the required data and clear and residual data stored in a variable to ensure we get accurate vote counts for analysis later. From there we can then beging to pull data to be used for calculations later on.
 
-### Results of Original Code Vs Refactored Code
+*  This code snippet opens the file that will be used to pull required data to run the analysis
+![ReadCSVfile](resources/ReadCSVfile.png)
+
+*  While this snippet is the code that sets the vote count to zero.
+![SetsVoteCountZero](resources/SetsVoteCountZero.png)
+
+From here we begin to collect the candidate and county specific data using 'for' loops and conditonal statements.  The code containing the 'for' loops and conditional statement goes through each row of the data and stores the relevant information while indexing.  This will allow us to get each candidate and each county and store vote counnts for each variable to be used for analysis later in the code.  
+
+* This use of 'for' loops and conditional statements to gather candidate and county information can be seen below.
+![For_Loop_If_Cond](resources/For_Loop_If_Cond.png)
+
+### Results of the Automation of Election Analysis
+
+### Summary of Output Terminal Display and .txt File.
 
 
 ## Summary
