@@ -53,7 +53,7 @@ Now that we have the data pulled and stored in variables, now the fun begins.  W
 
 * The code snippets below show the acquisition of vote counts and the application of a mathematical formula that calculates the percentage of votes acquired by candidates and what percentage of votes did each county cast.
 
-![CandidateAnalysis](Resources/CandidateAnalysis.png)    ,    ![PerCountyAnalysis](Resources/PerCountyAnalysis.png)
+![CandidateAnalysis](Resources/CandidateAnalysis.png)  ![PerCountyAnalysis](Resources/PerCountyAnalysis.png)
 
 Now that we have all this data and calculations complete, we need to make it meaningful to the people that will review this data, particularly Tom.  Formatting is an important step to make this data more impactful.  Below you will find the snippets of code that were used to format the output of the data to not only make the information more legible but also presents the data in an attractive manner that makes it easier for the user to read and understand. The following snippets are run in different places of the code to handle the output of the data to be displayed on both the terminal and as a .txt file.
 
